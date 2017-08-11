@@ -1,0 +1,23 @@
+{
+	"site": {
+		"lang": "en",
+		"title": "Website Templates",
+		"titleDelim": " | ",
+		"description": "Free html5 and css3 website templates",
+		"keywords": "html5 template, css3 template, website template, freebies",
+		"url": "https://website-templates.github.io"
+	},
+	"modules": {
+		"googleFonts": "https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic%7CPT+Serif&subset=latin,cyrillic",
+		"bodyJs": false,
+		"headJs": false,
+		"customCss": false,
+		"noscriptCss": false,
+		"twitterCard": true,
+		"openGraph": true
+	},
+	"links": {
+		"twitterCardCreator": "@orlovmax_im",
+		"twitterCardAccount": "@orlovmax_im"
+	}
+}

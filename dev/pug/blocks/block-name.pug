@@ -1,0 +1,8 @@
+//- Block name
+mixin block-name(args)
+	- opts = args || {}
+
+	.block-name&attributes(opts.blockName || {})
+		.block-name__element-name&attributes(opts.__elementName || {}) #{opts.key}
+
+		block block-name-content
