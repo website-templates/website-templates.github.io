@@ -1,0 +1,58 @@
+[
+	{
+		"title": "Portfolio one page template",
+		"imageLink": "static/images/blocks/gallery/portfolio_one-page-template.png",
+		"imageDescr": "Portfolio one page template",
+		"demoLink": "http://website-templates.github.io/portfolio_one-page-template/",
+		"sourceLink": "https://github.com/website-templates/portfolio_one-page-template",
+		"status": "Archived"
+	},
+	{
+		"title": "Design studio one page template",
+		"imageLink": "static/images/blocks/gallery/design-studio_one-page-template.png",
+		"imageDescr": "Design studio one page template",
+		"demoLink": "http://website-templates.github.io/design-studio_one-page-template/",
+		"sourceLink": "https://github.com/website-templates/design-studio_one-page-template",
+		"status": "Archived"
+	},
+	{
+		"title": "Webstudio responsive website template",
+		"imageLink": "static/images/blocks/gallery/webstudio_responsive-template.png",
+		"imageDescr": "Webstudio responsive website template",
+		"demoLink": "http://website-templates.github.io/webstudio_responsive-template",
+		"sourceLink": "https://github.com/website-templates/webstudio_responsive-template",
+		"status": "Archived"
+	},
+	{
+		"title": "Charity website template",
+		"imageLink": "static/images/blocks/gallery/charity_responsive-template.png",
+		"imageDescr": "Charity website template",
+		"demoLink": "http://website-templates.github.io/charity_responsive-template/",
+		"sourceLink": "https://github.com/website-templates/charity_responsive-template",
+		"status": "Archived"
+	},
+	{
+		"title": "Simple-product website template",
+		"imageLink": "static/images/blocks/gallery/simple-product_responsive-template.png",
+		"imageDescr": "Simple-product website template",
+		"demoLink": "http://website-templates.github.io/simple-product_responsive-template/",
+		"sourceLink": "https://github.com/website-templates/simple-product_responsive-template",
+		"status": "Archived"
+	},
+	{
+		"title": "Travel website template",
+		"imageLink": "static/images/blocks/gallery/travel_fluid-template.png",
+		"imageDescr": "Travel website template",
+		"demoLink": "http://website-templates.github.io/travel_fluid-template/",
+		"sourceLink": "https://github.com/website-templates/travel_fluid-template",
+		"status": "Archived"
+	},
+	{
+		"title": "Jekyll blog theme",
+		"imageLink": "static/images/blocks/gallery/jekyll-inclusion.png",
+		"imageDescr": "Jekyll blog theme",
+		"demoLink": "http://website-templates.github.io/jekyll-inclusion/",
+		"sourceLink": "https://github.com/website-templates/jekyll-inclusion",
+		"status": "Active"
+	}
+]

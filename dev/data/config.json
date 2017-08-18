@@ -19,5 +19,11 @@
 	"links": {
 		"twitterCardCreator": "@orlovmax_im",
 		"twitterCardAccount": "@orlovmax_im"
+	},
+	"project": {
+		"title": "Website Templates",
+		"link": "https://github.com/website-templates",
+		"author": "Maxim Orlov",
+		"authorLink": "https://github.com/orlovmax"
 	}
 }
