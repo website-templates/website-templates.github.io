@@ -1,33 +1,31 @@
 extends ../layouts/base
 
 block variables
-	- pageLang = ""
-	- pageTitle = ""
-	- pageDescription = ""
-	- pageKeywords = ""
-	- pageUrl = ""
+    - pageLang = ""
+    - pageTitle = ""
+    - pageDescription = ""
+    - pageKeywords = ""
+    - pageUrl = ""
 
 
 block body-content
 
-	+page-header({
-		pageHeaderTitle: "Free HTML5 and CSS3 Website Templates"
-	})
+    +page-header({
+        pageHeaderTitle: "Free HTML5 and CSS3 Website Templates"
+    })
 
 
-	+page-content
-		block page-content-gallery
+    +page-content
+        block page-content-gallery
 
-			+gallery({
-				galleryItems: gallery
-			})
-
-
-	+page-footer({
-		pageFooterProjectTitle: config.project.title,
-		pageFooterProjectLink: config.project.link,
-		pageFooterProjectAuthor: config.project.author,
-		pageFooterProjectAuthorLink: config.project.authorLink
-	})
+            +gallery({
+                galleryItems: gallery
+            })
 
 
+    +page-footer({
+        pageFooterProjectTitle: config.project.title,
+        pageFooterProjectLink: config.project.link,
+        pageFooterProjectAuthor: config.project.author,
+        pageFooterProjectAuthorLink: config.project.authorLink
+    })

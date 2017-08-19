@@ -1,6 +1,6 @@
 // Minify PNG, JPEG, GIF and SVG images
 var gulp = require('gulp'),
-	paths = require('./config/paths'),
+    paths = require('./config/paths'),
     plumber = require('gulp-plumber'),
     imagemin = require('gulp-imagemin');
 

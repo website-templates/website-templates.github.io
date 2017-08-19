@@ -1,12 +1,12 @@
 //- Page Footer
 mixin page-footer(args)
-	- opts = args || {}
+    - opts = args || {}
 
-	footer.page-footer
-		.page-footer__inner
-			.page-footer__group
-				p.page-footer__text
-					a.page-footer__text-link(href=opts.pageFooterProjectLink) &copy; #{opts.pageFooterProjectTitle}
-				p.page-footer__text
-					| Designed by&nbsp;
-					a.page-footer__text-link(href=opts.pageFooterProjectAuthorLink)=opts.pageFooterProjectAuthor
+    footer.page-footer
+        .page-footer__inner
+            .page-footer__group
+                p.page-footer__text
+                    a.page-footer__text-link(href=opts.pageFooterProjectLink) &copy; #{opts.pageFooterProjectTitle}
+                p.page-footer__text
+                    | Designed by&nbsp;
+                    a.page-footer__text-link(href=opts.pageFooterProjectAuthorLink)=opts.pageFooterProjectAuthor

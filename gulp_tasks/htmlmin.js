@@ -1,6 +1,6 @@
 // Gulp plugin to minify HTML
 var gulp = require('gulp'),
-	paths = require('./config/paths'),
+    paths = require('./config/paths'),
     plumber = require('gulp-plumber'),
     htmlmin = require('gulp-htmlmin');
 
