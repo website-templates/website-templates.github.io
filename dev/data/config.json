@@ -5,7 +5,9 @@
         "titleDelim": " | ",
         "description": "Free html5 and css3 website templates",
         "keywords": "html5 template, css3 template, website template, freebies",
-        "url": "https://website-templates.github.io"
+        "url": "https://website-templates.github.io",
+        "authorName": "Maxim Orlov",
+        "authorLink": "https://github.com/orlovmax"
     },
     "modules": {
         "googleFonts": "https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic%7CPT+Serif&subset=latin,cyrillic",
@@ -19,11 +21,5 @@
     "links": {
         "twitterCardCreator": "@orlovmax_im",
         "twitterCardAccount": "@orlovmax_im"
-    },
-    "project": {
-        "title": "Website Templates",
-        "link": "https://github.com/website-templates",
-        "author": "Maxim Orlov",
-        "authorLink": "https://github.com/orlovmax"
     }
 }

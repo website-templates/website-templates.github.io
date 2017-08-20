@@ -1,7 +1,15 @@
 [
     {
+        "title": "Simple-gallery Responsive Template",
+        "imageLink": "static/images/blocks/gallery/simple-gallery_responsive-template.jpg",
+        "imageDescr": "Simple-gallery Responsive Template",
+        "demoLink": "http://website-templates.github.io/simple-gallery_responsive-template/",
+        "sourceLink": "https://github.com/website-templates/simple-gallery_responsive-template",
+        "status": "Active"
+    },
+    {
         "title": "Portfolio one page template",
-        "imageLink": "static/images/blocks/gallery/portfolio_one-page-template.png",
+        "imageLink": "static/images/blocks/gallery/portfolio_one-page-template.jpg",
         "imageDescr": "Portfolio one page template",
         "demoLink": "http://website-templates.github.io/portfolio_one-page-template/",
         "sourceLink": "https://github.com/website-templates/portfolio_one-page-template",
@@ -9,7 +17,7 @@
     },
     {
         "title": "Design studio one page template",
-        "imageLink": "static/images/blocks/gallery/design-studio_one-page-template.png",
+        "imageLink": "static/images/blocks/gallery/design-studio_one-page-template.jpg",
         "imageDescr": "Design studio one page template",
         "demoLink": "http://website-templates.github.io/design-studio_one-page-template/",
         "sourceLink": "https://github.com/website-templates/design-studio_one-page-template",
@@ -17,15 +25,15 @@
     },
     {
         "title": "Webstudio responsive website template",
-        "imageLink": "static/images/blocks/gallery/webstudio_responsive-template.png",
+        "imageLink": "static/images/blocks/gallery/webstudio_responsive-template.jpg",
         "imageDescr": "Webstudio responsive website template",
-        "demoLink": "http://website-templates.github.io/webstudio_responsive-template",
+        "demoLink": "http://website-templates.github.io/webstudio_responsive-template/",
         "sourceLink": "https://github.com/website-templates/webstudio_responsive-template",
         "status": "Archived"
     },
     {
         "title": "Charity website template",
-        "imageLink": "static/images/blocks/gallery/charity_responsive-template.png",
+        "imageLink": "static/images/blocks/gallery/charity_responsive-template.jpg",
         "imageDescr": "Charity website template",
         "demoLink": "http://website-templates.github.io/charity_responsive-template/",
         "sourceLink": "https://github.com/website-templates/charity_responsive-template",
@@ -33,7 +41,7 @@
     },
     {
         "title": "Simple-product website template",
-        "imageLink": "static/images/blocks/gallery/simple-product_responsive-template.png",
+        "imageLink": "static/images/blocks/gallery/simple-product_responsive-template.jpg",
         "imageDescr": "Simple-product website template",
         "demoLink": "http://website-templates.github.io/simple-product_responsive-template/",
         "sourceLink": "https://github.com/website-templates/simple-product_responsive-template",
@@ -41,7 +49,7 @@
     },
     {
         "title": "Travel website template",
-        "imageLink": "static/images/blocks/gallery/travel_fluid-template.png",
+        "imageLink": "static/images/blocks/gallery/travel_fluid-template.jpg",
         "imageDescr": "Travel website template",
         "demoLink": "http://website-templates.github.io/travel_fluid-template/",
         "sourceLink": "https://github.com/website-templates/travel_fluid-template",
@@ -49,7 +57,7 @@
     },
     {
         "title": "Jekyll blog theme",
-        "imageLink": "static/images/blocks/gallery/jekyll-inclusion.png",
+        "imageLink": "static/images/blocks/gallery/jekyll-inclusion.jpg",
         "imageDescr": "Jekyll blog theme",
         "demoLink": "http://website-templates.github.io/jekyll-inclusion/",
         "sourceLink": "https://github.com/website-templates/jekyll-inclusion",
