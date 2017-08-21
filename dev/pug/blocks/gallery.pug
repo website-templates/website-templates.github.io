@@ -17,3 +17,11 @@ mixin gallery(args)
                                             .gallery__preview-links
                                                 a.gallery__preview-link.gallery__preview-link_role_demo(href=item.demoLink) Demo
                                                 a.gallery__preview-link.gallery__preview-link_role_source(href=item.sourceLink) Source code
+
+                                        if item.status == "Active" || item.status == "active"
+                                            p.gallery__preview-status.gallery__preview-status_state_active: span #{item.status}
+                                        else if item.status == "Archived" || item.status == "archived"
+                                            p.gallery__preview-status.gallery__preview-status_state_archived: span #{item.status}
+                                        else
+                                            p.gallery__preview-status: span Undefined
+
