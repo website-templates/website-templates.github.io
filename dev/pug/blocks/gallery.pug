@@ -12,12 +12,6 @@ mixin gallery(args)
                                 figure.gallery__preview
                                     .gallery__preview-image: img(src=item.imageLink, alt=item.imageDescr)
                                     figcaption.gallery__preview-caption
-                                        .gallery__preview-info
-                                            h2.gallery__preview-title=item.title
-                                            .gallery__preview-links
-                                                a.gallery__preview-link.gallery__preview-link_role_demo(href=item.demoLink) Demo
-                                                a.gallery__preview-link.gallery__preview-link_role_source(href=item.sourceLink) Source code
-
                                         if item.status == "Active" || item.status == "active"
                                             p.gallery__preview-status.gallery__preview-status_state_active: span #{item.status}
                                         else if item.status == "Archived" || item.status == "archived"
@@ -25,3 +19,19 @@ mixin gallery(args)
                                         else
                                             p.gallery__preview-status: span Undefined
 
+                                        .gallery__preview-info
+                                            h2.gallery__preview-title=item.title
+                                            .gallery__preview-links
+                                                a.gallery__preview-link.gallery__preview-link_role_demo(href=item.demoLink) Demo
+                                                a.gallery__preview-link.gallery__preview-link_role_source(href=item.sourceLink) Source code
+
+                                        if item.designer == item.developer
+                                            p.gallery__preview-authorship
+                                                | Designed and coded by&nbsp;
+                                                b #{item.designer}
+                                        else
+                                            p.gallery__preview-authorship
+                                                | Designed by&nbsp;
+                                                b #{item.designer}
+                                                |, coded by&nbsp;
+                                                b #{item.developer}

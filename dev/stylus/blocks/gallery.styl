@@ -21,6 +21,8 @@ $c-page-gallery-preview-status-archived_bd = #95a5a6
 $c-page-gallery-preview-status-active_bg = #27ae60
 $c-page-gallery-preview-status-active_bd = #27ae60
 
+$c-page-gallery-preview-authorship_c = #333
+
 
 //////////////////////////////////////// Block mixins and functions
 
@@ -136,7 +138,7 @@ $block = ".gallery"
         align-items center
         background-color $c-page-gallery-preview-caption_bg
         opacity 0
-        transition: opacity .5s
+        transition: opacity .3s
 
         // $Gallery preview caption CONTEXT: // $Gallery preview hovered state
         {$block}__preview:hover &
@@ -151,7 +153,7 @@ $block = ".gallery"
         padding 30px 20px 20px
 
         @media screen and (max-width: 480px)
-            padding 20px 10px 10px
+            padding 20px 10px
 
 
     // $Gallery preview title
@@ -168,7 +170,11 @@ $block = ".gallery"
         @media screen and (max-width: 960px)
             font-size 24px
 
+        @media screen and (max-width: 480px)
+            margin-bottom 15px
+
         @media screen and (max-width: 320px)
+            margin-bottom 10px
             font-size 22px
 
 
@@ -270,3 +276,24 @@ $block = ".gallery"
             display inline-block
             margin-right 5px
             vertical-align middle
+
+    // $Gallery preview authorship
+    &__preview-authorship
+        position absolute
+        bottom 10px
+        right 10px
+        left 10px
+        z-index 3
+        display inline-block
+        font-family $f-sans
+        font-size 12px
+        line-height 1
+        font-weight 400
+        color $c-page-gallery-preview-authorship_c
+
+        @media screen and (max-width: 320px)
+            font-size 10px
+
+        // $Gallery preview authorship marked text
+        & > b
+            font-weight bold

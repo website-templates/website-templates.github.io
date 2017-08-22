@@ -2,6 +2,8 @@
     {
         "title": "Simple-gallery Responsive Template",
         "status": "Active",
+        "designer": "@orlovmax",
+        "developer": "@orlovmax",
         "imageLink": "static/images/blocks/gallery/simple-gallery_responsive-template.jpg",
         "imageDescr": "Simple-gallery Responsive Template",
         "demoLink": "http://website-templates.github.io/simple-gallery_responsive-template/",
@@ -10,6 +12,8 @@
     {
         "title": "Portfolio one page template",
         "status": "Archived",
+        "designer": "@orlovmax",
+        "developer": "@orlovmax",
         "imageLink": "static/images/blocks/gallery/portfolio_one-page-template.jpg",
         "imageDescr": "Portfolio one page template",
         "demoLink": "http://website-templates.github.io/portfolio_one-page-template/",
@@ -18,6 +22,8 @@
     {
         "title": "Design studio one page template",
         "status": "Archived",
+        "designer": "@cssauthor",
+        "developer": "@orlovmax",
         "imageLink": "static/images/blocks/gallery/design-studio_one-page-template.jpg",
         "imageDescr": "Design studio one page template",
         "demoLink": "http://website-templates.github.io/design-studio_one-page-template/",
@@ -26,6 +32,8 @@
     {
         "title": "Webstudio responsive website template",
         "status": "Archived",
+        "designer": "@cssauthor",
+        "developer": "@orlovmax",
         "imageLink": "static/images/blocks/gallery/webstudio_responsive-template.jpg",
         "imageDescr": "Webstudio responsive website template",
         "demoLink": "http://website-templates.github.io/webstudio_responsive-template/",
@@ -34,6 +42,8 @@
     {
         "title": "Charity website template",
         "status": "Archived",
+        "designer": "@cssauthor",
+        "developer": "@orlovmax",
         "imageLink": "static/images/blocks/gallery/charity_responsive-template.jpg",
         "imageDescr": "Charity website template",
         "demoLink": "http://website-templates.github.io/charity_responsive-template/",
@@ -42,6 +52,8 @@
     {
         "title": "Simple-product website template",
         "status": "Archived",
+        "designer": "@cssauthor",
+        "developer": "@orlovmax",
         "imageLink": "static/images/blocks/gallery/simple-product_responsive-template.jpg",
         "imageDescr": "Simple-product website template",
         "demoLink": "http://website-templates.github.io/simple-product_responsive-template/",
@@ -50,6 +62,8 @@
     {
         "title": "Travel website template",
         "status": "Archived",
+        "designer": "@cssauthor",
+        "developer": "@orlovmax",
         "imageLink": "static/images/blocks/gallery/travel_fluid-template.jpg",
         "imageDescr": "Travel website template",
         "demoLink": "http://website-templates.github.io/travel_fluid-template/",
@@ -58,6 +72,8 @@
     {
         "title": "Jekyll blog theme",
         "status": "Active",
+        "designer": "@orlovmax",
+        "developer": "@orlovmax",
         "imageLink": "static/images/blocks/gallery/jekyll-inclusion.jpg",
         "imageDescr": "Jekyll blog theme",
         "demoLink": "http://website-templates.github.io/jekyll-inclusion/",
