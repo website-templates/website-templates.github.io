@@ -5,19 +5,21 @@
 //////////////////////////////////////// Block variables
 
 // Colors
-$c-page-gallery-preview-title_c = #fff
-$c-page-gallery-preview-link_c = #fff
-
 $c-page-gallery-isle-inner_bg = #fff
 $c-page-gallery-isle-inner_sh = rgba(0, 0, 0, .4)
 
-$c-page-gallery-preview-caption_bg = rgba(44, 62, 80,.9)
+$c-page-gallery-preview-caption_bg = #fff
 
-$c-page-gallery-preview-status_c = #fff
-$c-page-gallery-preview-status_bd = #fff
+$c-page-gallery-preview-title_c = #333
+$c-page-gallery-preview-link_c = #333
+
+$c-page-gallery-preview-status_c = #333
 $c-page-gallery-preview-status_bg = transparent
+$c-page-gallery-preview-status_bd = #333
 $c-page-gallery-preview-status-archived_bg = #95a5a6
+$c-page-gallery-preview-status-archived_bd = #95a5a6
 $c-page-gallery-preview-status-active_bg = #27ae60
+$c-page-gallery-preview-status-active_bd = #27ae60
 
 
 //////////////////////////////////////// Block mixins and functions
@@ -239,6 +241,7 @@ $block = ".gallery"
 
         &:after
             content ""
+            box-sizing border-box
             display inline-block
             width 10px
             height 10px
@@ -255,10 +258,12 @@ $block = ".gallery"
         // $Gallery preview status MOD: state archived
         &_state_archived:after
             background-color $c-page-gallery-preview-status-archived_bg
+            border-color $c-page-gallery-preview-status-archived_bd
 
         // $Gallery preview status MOD: state active
         &_state_active:after
             background-color $c-page-gallery-preview-status-active_bg
+            border-color $c-page-gallery-preview-status-active_bd
 
         // $Gallery preview status text
         & > span
