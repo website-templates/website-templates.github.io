@@ -7,7 +7,9 @@
         "keywords": "html5 template, css3 template, website template, freebies",
         "url": "https://website-templates.github.io",
         "authorName": "Maxim Orlov",
-        "authorLink": "https://github.com/orlovmax"
+        "authorLink": "https://github.com/orlovmax",
+        "organizationName": "Website Templates",
+        "organizationLink": "https://github.com/website-templates"
     },
     "modules": {
         "googleFonts": "https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic%7CPT+Serif&subset=latin,cyrillic",
